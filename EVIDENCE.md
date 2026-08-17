@@ -3,11 +3,11 @@
 ## Source
 
 - Repository: https://github.com/MeowStlanik/open-world-liveness-switch
-- Immutable contract source: https://github.com/MeowStlanik/open-world-liveness-switch/blob/975dcb69fe54bd023540d1b062917be7bab08d61/contracts/open_world_liveness_switch.py
+- Immutable contract source: https://github.com/MeowStlanik/open-world-liveness-switch/blob/83679a34231964bde5a175f9544624802b4d6106/contracts/open_world_liveness_switch.py
 - Source SHA-256: `9308a95b5cec8d20f215580342ae0290473c3ec908654737d7faec2da4349036`
-- Direct tests: https://github.com/MeowStlanik/open-world-liveness-switch/tree/975dcb69fe54bd023540d1b062917be7bab08d61/tests
-- Consensus design: https://github.com/MeowStlanik/open-world-liveness-switch/blob/975dcb69fe54bd023540d1b062917be7bab08d61/docs/CONSENSUS.md
-- Security model: https://github.com/MeowStlanik/open-world-liveness-switch/blob/975dcb69fe54bd023540d1b062917be7bab08d61/docs/SECURITY.md
+- Direct tests: https://github.com/MeowStlanik/open-world-liveness-switch/tree/83679a34231964bde5a175f9544624802b4d6106/tests
+- Consensus design: https://github.com/MeowStlanik/open-world-liveness-switch/blob/83679a34231964bde5a175f9544624802b4d6106/docs/CONSENSUS.md
+- Security model: https://github.com/MeowStlanik/open-world-liveness-switch/blob/83679a34231964bde5a175f9544624802b4d6106/docs/SECURITY.md
 
 ## Bradbury
 
