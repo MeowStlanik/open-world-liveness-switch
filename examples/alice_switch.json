@@ -1,0 +1,39 @@
+{
+  "switch_id": "alice_liveness",
+  "sources": [
+    {
+      "id": "github",
+      "family": "code_host",
+      "url": "https://github.com/alice",
+      "criteria": "A public contribution authored by the alice account exists within the previous 60 days.",
+      "identity_anchor": "alice"
+    },
+    {
+      "id": "blog_feed",
+      "family": "publishing",
+      "url": "https://alice.example/feed.xml",
+      "criteria": "The complete feed contains a post attributed to Alice and dated within the previous 90 days.",
+      "identity_anchor": "Alice's Notes"
+    },
+    {
+      "id": "status_page",
+      "family": "owned_domain",
+      "url": "https://alice.example/liveness",
+      "criteria": "The page's signed liveness date is no older than 45 days.",
+      "identity_anchor": "alice.example liveness v1"
+    }
+  ],
+  "beneficiaries": [
+    {"address": "0x1111111111111111111111111111111111111111", "share_bps": 6000},
+    {"address": "0x2222222222222222222222222222222222222222", "share_bps": 4000}
+  ],
+  "guardians": ["0x3333333333333333333333333333333333333333"],
+  "active_quorum": 1,
+  "inactive_quorum": 2,
+  "inactive_family_quorum": 2,
+  "consecutive_rounds_required": 3,
+  "min_probe_seconds": 86400,
+  "grace_seconds": 1209600,
+  "payload_uri": "ipfs://REPLACE_WITH_ENCRYPTED_PAYLOAD_CID",
+  "payload_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+}
